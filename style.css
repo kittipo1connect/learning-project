@@ -1,0 +1,37 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #aaa;
+}
+
+body{
+    background-color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    margin: 2rem 2rem;
+    text-shadow: 3px 3px 5px rgb(156, 153, 153);
+    justify-content: center;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(21, 38, 48);
+        padding: 3rem 3rem;
+        
+        a{
+            text-decoration: none;
+            color: var(--white);
+
+            &:hover{
+                color: red;
+            }
+        }
+
+    }
+}
